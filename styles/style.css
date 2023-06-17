@@ -1,0 +1,67 @@
+body{
+    background: #1e1e1e;
+}
+.hover_column{
+    position: absolute;
+    z-index: 9;
+    top: 0;
+    width: 80px;
+    height: 700px;
+}
+.hover_column:hover{
+    background: #e4e4d2;
+}
+.block{
+    position: absolute;
+    width: 76px;
+    /*margin: 0px 2px;*/
+    top: 15px;
+}
+#game_area{
+    background: #f8f8ec;
+    width: 800px;
+    height: 700px;
+    top: 0;
+    margin: auto;
+    position: relative;
+}
+
+#hover0{left: 0}
+#hover1{left: 80px}
+#hover2{left: 160px}
+#hover3{left: 240px}
+#hover4{left: 320px}
+#hover5{left: 400px}
+#hover6{left: 480px}
+#hover7{left: 560px}
+#hover8{left: 640px}
+#hover9{left: 720px}
+
+#timeprg{
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    margin: auto;
+    width: 800px;
+}
+#player{
+    position: absolute;
+    bottom: 0;
+    left: 7px;
+}
+.container{
+    position: absolute;
+    bottom: 40px;
+    left: -8px;
+}
+.hide_progress_bar::-moz-progress-bar {
+    visibility: hidden;
+}
+
+.hide_progress_bar::-webkit-progress-value {
+    visibility: hidden;
+}
+
+.hide_progress_bar {
+    visibility: hidden;
+}
